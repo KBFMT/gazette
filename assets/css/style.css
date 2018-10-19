@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header, main, footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+}
+
+nav.grey.darken-1 {
+    padding-left: 300px;
+}
+.card-about {
+    padding-left: 300px;
+}
+
+.card .card-image .card-title {
+    font-weight: 500;
+}
+.card-image img {
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%);
+}
+
+.btn-floating.halfway-fab {
+    position: absolute;
+    right: 310px;
+    bottom: -90px;
+}
+.card-panel p {
+    font-size: 22px;
+}
+
+.user-view img {
+    height: 128px;
+    width: auto;
+}
+
+.sidenav .user-view {
+    padding: 64px;
+}
+
+.card-caption {
+    margin: 0;
+}
+.card-panel p.card-caption {
+    font-size: 18px;
+}
